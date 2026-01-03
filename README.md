@@ -4,16 +4,16 @@
 AI hallucinations are not primarily a reasoning failure — they are a grounding and navigation failure that emerges at web scale. This repo explains why larger models don’t fix hallucinations and why explicit AI grounding becomes mandatory as scale increases.
 
 # 🌐 Why Scale Is the Real Enemy (Not Model Quality)
-### DFH / SFH becomes unavoidable as the web crosses the “density threshold”
+### HESS/DFH becomes unavoidable as the web crosses the “density threshold”
 
 > **Thesis:** AI doesn’t break because it can’t think — it breaks because it can’t **navigate** a web that keeps growing without **official road signs**.
 
 ---
 
 ## ✅ What This Repo Is
-This is a **human-readable** explanation of why **DFH / SFH (Deterministic / Semantic First-Hop)** becomes **inevitable** over time.
+This is a **human-readable** explanation of why **HESS /DFH (Deterministic / Semantic First-Hop)** becomes **inevitable** over time.
 
-Not because DFH is trendy.  
+Not because HESS is trendy.  
 Not because models are “bad.”  
 Because **scale turns ambiguity into system failure**.
 
@@ -116,7 +116,7 @@ AI can “reason” forever — but if it can’t reliably answer:
 They only do one job:
 > **Stop you from getting lost at scale.**
 
-That’s what DFH/SFH is.
+That’s what HESS/DFH is.
 
 ---
 
@@ -154,7 +154,7 @@ But scale always crosses thresholds.
 
 ---
 
-## ✅ What DFH/SFH Actually Adds (In Plain English)
+## ✅ What HESS/DFH Actually Adds (In Plain English)
 DFH/SFH is not a truth engine.
 
 It’s a **deterministic “start here” file** that gives machines:
@@ -166,12 +166,12 @@ It’s a **deterministic “start here” file** that gives machines:
 Published at a predictable location, like:
 
 ```txt
-https://<domain>/.well-known/stack
+https://< yourdomain>/.well-known/stack
 Think of it as:
 
 DNS = where the website is
 
-DFH/SFH = what the website claims things mean + where the official sources are
+HESS/DFH = what the website claims things mean + where the official sources are
 
 🧠 One Sentence That Nails It
 “AI doesn’t break because it can’t think — it breaks because it can’t navigate a web that keeps growing without signs.”
@@ -191,7 +191,7 @@ So you’re not waiting for AI to “fail.”
 
 You’re waiting for scale to expose the missing layer.
 
-🧩 Optional Add-On Sections (Copy/Paste)
+🧩 Optional Add-On Sections
 A) “Density Threshold” Definition
 The density threshold is when:
 
@@ -216,7 +216,7 @@ tend to hit the wall first:
 finance, health, government, pharma, major brands.
 
 🗺️ Closing
-DFH/SFH isn’t a “feature.”
+HESS/DFH isn’t a “feature.”
 It’s the missing navigation primitive for the AI era.
 
 Because at scale:
@@ -224,5 +224,5 @@ Because at scale:
 probability becomes drift
 and drift becomes collapse.
 
-When that becomes obvious, DFH stops being optional.
+When that becomes obvious, HESS stops being optional.
 
